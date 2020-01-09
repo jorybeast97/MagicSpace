@@ -1,1 +1,5 @@
-MagicSpace
+## 简介
+
+这个Rep主要存放自己日常学习和博客中很多文章的源代码。
+
+- RabbitMQ : 有关RabbitMQ入门知识，六种基本模型代码。
