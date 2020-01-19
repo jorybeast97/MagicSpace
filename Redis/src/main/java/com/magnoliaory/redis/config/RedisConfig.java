@@ -57,6 +57,6 @@ public class RedisConfig extends CachingConfigurerSupport {
         stringRedisTemplate.afterPropertiesSet();
         return stringRedisTemplate;
     }
-    
+
 
 }

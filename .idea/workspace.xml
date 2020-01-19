@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d50a832-4bf1-4023-b7fd-81ed67364b84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Redis/src/main/java/com/magnoliaory/redis/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/src/main/java/com/magnoliaory/redis/config/RedisConfig.java" afterDir="false" />
-    </list>
+    <list default="true" id="9d50a832-4bf1-4023-b7fd-81ed67364b84" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/RabbitMQ/target/" />
     <ignored path="$PROJECT_DIR$/Redis/target/" />
@@ -64,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Redis/src/main/java/com/magnoliaory/redis/config/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+            <state relative-caret-position="652">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2055#2079#0" expanded="true" />
@@ -160,59 +158,6 @@
               <item name="MagicSpace" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagicSpace" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MagicSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -222,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579423358832" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579423359324" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -289,16 +234,15 @@
       <workItem from="1579059708135" duration="616000" />
       <workItem from="1579252426836" duration="2415000" />
       <workItem from="1579317859509" duration="1208000" />
-      <workItem from="1579400163241" duration="6484000" />
+      <workItem from="1579400163241" duration="7091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40904000" />
+    <option name="totallyTimeSpent" value="41511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16381419" />
@@ -584,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Redis/src/main/java/com/magnoliaory/redis/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        <state relative-caret-position="652">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2055#2079#0" expanded="true" />
