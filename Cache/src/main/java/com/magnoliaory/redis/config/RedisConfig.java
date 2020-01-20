@@ -24,6 +24,7 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.data.redis.support.collections.RedisProperties;
 
+import javax.crypto.KeyGenerator;
 import java.time.Duration;
 
 @Configuration
