@@ -3,6 +3,7 @@ package confirm;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.ConfirmListener;
 import com.rabbitmq.client.Connection;
+import sun.misc.Unsafe;
 import utils.RabbitMQUtils;
 
 import java.io.IOException;
@@ -10,10 +11,14 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.SortedSet;
 import java.util.TreeSet;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class ConfirmTest {
 
+
+
     public static void main(String[] args) throws Exception {
+
         for (int i = 0; i < 100; i++) {
             createMsg();
             System.out.println("发送完成");
@@ -22,6 +27,9 @@ public class ConfirmTest {
 
     //声明交换机的名称
     public static final String EXCHANGE_NAME = "SUBSCRIPT_QUEUE";
+
+
+
 
     public static void createMsg() throws Exception {
         //同之前
