@@ -1,10 +1,10 @@
-package com.magnoliaory.redis;
+package com.magnolia.springbootcache;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RedisApplicationTests {
+class SpringBootCacheApplicationTests {
 
     @Test
     void contextLoads() {
