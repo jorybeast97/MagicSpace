@@ -18,13 +18,7 @@ package medium;
  */
 public class DecodeString {
 
-    public String solution(String s) {
-        StringBuffer stringBuffer = new StringBuffer();
 
-        char[] chars = s.toCharArray();
-
-
-    }
 
     public static String decoding(char num, String repeat) {
         int i = (int) num;
