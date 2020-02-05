@@ -36,6 +36,6 @@ public class OneNumber {
             }
             temp = temp << 1;
         }
-        return res
+        return res;
     }
 }
