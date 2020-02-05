@@ -22,7 +22,7 @@ public class CutRope {
         }
         int res = 0;
         for (int i =1; i < length - length; i++) {
-            res = Math.max(res, Math.max());
+            res = Math.max(res, 1);
         }
         return res;
     }
