@@ -3,11 +3,11 @@ package structure;
 
 public class TreeNode {
 
-    private TreeNode leftNode;
+    public TreeNode leftNode;
 
-    private TreeNode rightNode;
+    public TreeNode rightNode;
 
-    private Object value;
+    public Object value;
 
     public TreeNode() {
     }
