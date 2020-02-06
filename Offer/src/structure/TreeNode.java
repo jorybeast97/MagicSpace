@@ -18,6 +18,10 @@ public class TreeNode {
         this.value = value;
     }
 
+    public TreeNode(int val) {
+        value = val;
+    }
+
     public TreeNode getLeftNode() {
         return leftNode;
     }
