@@ -5,8 +5,13 @@ package example;
  */
 public class Problem_10 {
 
+    public static void main(String[] args) {
+        System.out.println(solution(10));
+
+    }
+
     //跳台阶
-    public int solution(int n) {
+    public static int solution(int n) {
         if (n==1) {
             return 1;
         }
