@@ -3,6 +3,7 @@ package easy;
 import structure.ListNode;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class LeetCode_234 {
     public boolean isPalindrome(ListNode head) {
