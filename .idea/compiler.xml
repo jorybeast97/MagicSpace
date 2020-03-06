@@ -7,10 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Cache" />
-        <module name="RabbitMQ" />
         <module name="Spring-Boot-Cache" />
         <module name="Interview" />
+        <module name="Cache" />
+        <module name="RabbitMQ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
