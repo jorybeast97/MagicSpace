@@ -12,6 +12,7 @@
         <module>RabbitMQ</module>
         <module>剑指offer</module>
         <module>Interview</module>
+        <module>spring-security</module>
     </modules>
 
 

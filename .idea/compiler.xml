@@ -7,19 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-Boot-Cache" />
+        <module name="demo" />
+        <module name="RabbitMQ" />
         <module name="Interview" />
         <module name="Cache" />
-        <module name="RabbitMQ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="Offer" target="8" />
+      <module name="security-tradition" target="1.8" />
+      <module name="Spring-Boot-Cache" target="1.8" />
+      <module name="spring-security" target="1.8" />
+      <module name="spring-security-tradition" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-Boot-Cache" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="security-tradition" options="-parameters" />
+      <module name="spring-security" options="-parameters" />
+      <module name="spring-security-tradition" options="-parameters" />
     </option>
   </component>
 </project>
