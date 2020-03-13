@@ -7,10 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
         <module name="RabbitMQ" />
-        <module name="Interview" />
         <module name="Cache" />
+        <module name="demo" />
+        <module name="Interview" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
