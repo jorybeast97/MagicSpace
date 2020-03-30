@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Cache" />
-        <module name="Interview" />
-        <module name="demo" />
         <module name="RabbitMQ" />
+        <module name="demo" />
+        <module name="Interview" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
