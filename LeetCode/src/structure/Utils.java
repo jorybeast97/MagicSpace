@@ -1,5 +1,6 @@
 package structure;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Utils {
@@ -41,12 +42,12 @@ public class Utils {
      * @param b
      */
     public static void swap(int[] arr, int a, int b) {
-
             int temp = arr[a];
             arr[a] = arr[b];
             arr[b] = temp;
-
     }
+
+
 
 
 }
