@@ -4,12 +4,18 @@ import CAS.CompareAndSweepUtils;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.locks.LockSupport;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class MagnoliaLock {
+
+
+
+
 
     /**
      * 锁状态值，可重入，但是同一时间只能由一个类操作
      */
+    private ReentrantLock lock = new ReentrantLock();
     private volatile int state = 0;
 
     private Thread lockHolder;

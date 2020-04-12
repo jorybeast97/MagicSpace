@@ -1,15 +1,14 @@
-package easy;
+package medium;
 
-public class LeetCode_557 {
-
+public class LeetCode_151 {
     public String reverseWords(String s) {
         String[] strings = s.split(" ");
         for (int i = 0; i < strings.length; i++) {
             strings[i] = help(strings[i]);
         }
         String res = "";
-        for (int i = 0; i < strings.length; i++) {
-            if (i == strings.length - 1) {
+        for (int i = strings.length-1; i >= 0; i--) {
+            if (i == 0) {
                 res = res + strings[i];
             }
             else {
@@ -21,16 +20,6 @@ public class LeetCode_557 {
 
     public String help(String s) {
         String replace = s.replace(" ", "");
-        char[] chars = replace.toCharArray();
-        int start = 0;
-        int last = chars.length-1;
-        while (start <= last) {
-            char temp = chars[start];
-            chars[start] = chars[last];
-            chars[last] = temp;
-            start++;
-            last--;
-        }
-        return new String(chars);
+        return replace;
     }
 }
