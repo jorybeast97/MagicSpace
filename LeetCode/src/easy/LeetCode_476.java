@@ -1,5 +1,7 @@
 package easy;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 public class LeetCode_476 {
 
     public static void main(String[] args) {

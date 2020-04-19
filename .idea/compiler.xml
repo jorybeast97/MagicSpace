@@ -10,8 +10,10 @@
         <module name="Cache" />
         <module name="RabbitMQ" />
         <module name="demo" />
-        <module name="Interview" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Interview" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
