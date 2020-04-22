@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyLock/MyLock.iml" filepath="$PROJECT_DIR$/MyLock/MyLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-test/Spring-test.iml" filepath="$PROJECT_DIR$/Spring-test/Spring-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Offer/source.iml" filepath="$PROJECT_DIR$/Offer/source.iml" />
     </modules>
   </component>

@@ -5,6 +5,7 @@ import java.util.Random;
 
 public class Utils {
 
+
     /**
      * 创建一个随机数组
      * @param bound
