@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class LeetCode_442 {
     public List<Integer> findDuplicates(int[] nums) {
@@ -31,6 +32,6 @@ public class LeetCode_442 {
             if (nums[i] > 0) list.add(i + 1);
         }
         return list;
-
     }
+
 }

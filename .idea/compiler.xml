@@ -14,6 +14,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Interview" target="8" />
+      <module name="shardingsphere-datasouce" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shardingsphere-datasouce" options="-parameters" />
+    </option>
   </component>
 </project>
