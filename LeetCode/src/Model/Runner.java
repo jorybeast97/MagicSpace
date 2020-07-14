@@ -1,5 +1,7 @@
 package Model;
 
+import org.jboss.arquillian.container.spi.client.protocol.metadata.Servlet;
+
 import java.util.Random;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

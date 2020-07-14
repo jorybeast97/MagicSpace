@@ -12,7 +12,7 @@ public class QuickSort {
     }
 
     public void quickSort(int[] nums, int left, int right) {
-        if (left >= right) return;
+        if (left >   right) return;
         //确定基准数
         int benchmark = nums[left];
         int i = left;
@@ -30,7 +30,7 @@ public class QuickSort {
         }
         //将基准数和左侧最大数交换
         Utils.swap(nums, left, i);
-        quickSort(nums, left, left - 1);
-        quickSort(nums, left + 1, right);
+        quickSort(nums, left, i - 1);
+        quickSort(nums, j+1, right);
     }
 }

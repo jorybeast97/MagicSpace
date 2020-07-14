@@ -24,7 +24,6 @@ public class ShellSort {
                     }
                 }
             }
-
             if(incre == 1){
                 break;
             }
