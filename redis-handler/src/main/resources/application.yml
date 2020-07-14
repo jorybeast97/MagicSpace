@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    max-idle: 20
+    max-total: 100
+    max-wait-millis: 3000
+  redis2:
+    host:
