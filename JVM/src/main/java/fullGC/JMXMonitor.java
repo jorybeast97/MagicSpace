@@ -30,7 +30,7 @@ public class JMXMonitor implements Runnable {
         while (true) {
             long curTime = System.currentTimeMillis();
             long curFullGCNum = garbageCollectorMXBean.getCollectionCount();
-            observer.checkDump(curFullGCNum, curTime, 300000);
+            observer.checkDump(curFullGCNum, curTime, 30000);
             Thread.sleep(scanTime * 1000);
         }
     }
