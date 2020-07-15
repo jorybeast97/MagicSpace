@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
-        <module name="BloomFilter" />
-        <module name="JVM" />
         <module name="RabbitMQ" />
+        <module name="JVM" />
+        <module name="BloomFilter" />
         <module name="Cache" />
         <module name="redis-handler" />
       </profile>

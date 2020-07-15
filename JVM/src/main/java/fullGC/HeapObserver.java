@@ -1,14 +1,21 @@
 package fullGC;
 
+import com.sun.management.HotSpotDiagnosticMXBean;
+import sun.management.HotSpotDiagnostic;
+
+import java.lang.management.ManagementFactory;
+
 public class HeapObserver {
 
     long fullGCNum = 0;
 
     long lastDumpTime = 0;
 
+
     public void checkDump(long num, long curTime ,long interval) {
         if (num > fullGCNum && (curTime - lastDumpTime) > interval) {
             System.out.println("生成Heap Dump");
+            HeapDumpServer.dumpHeap("D:\\heap.hprof",true);
             setFullGCNum(num);
             setLastDumpTime(curTime);
             return;
