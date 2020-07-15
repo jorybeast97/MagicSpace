@@ -15,7 +15,8 @@ public class HeapObserver {
     public void checkDump(long num, long curTime ,long interval) {
         if (num > fullGCNum && (curTime - lastDumpTime) > interval) {
             System.out.println("生成Heap Dump");
-            HeapDumpServer.dumpHeap("D:\\heap.hprof",true);
+            String path = "D:\\heap" + System.currentTimeMillis() + ".hprof";
+            HeapDumpServer.dumpHeap(path,true);
             setFullGCNum(num);
             setLastDumpTime(curTime);
             return;
